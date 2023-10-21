@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+
+</head>
+
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <div class="container mt-5 ">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <form method="post" action="login.php">
+                    <!-- Email input -->
+
+                    <input type="email" id="email" name="email" class="form-control" />
+                    <label class="form-label" for="email">Email address</label>
+
+
+                    <!-- Password input -->
+
+                    <input type="password" id="password" name="password" class="form-control" />
+                    <label class="form-label" for="password">Password</label>
+
+
+                    <!-- 2 column grid layout for inline styling -->
+                    <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                            <!-- Checkbox -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                                <label class="form-check-label" for="form1Example3"> Remember me </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
